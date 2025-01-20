@@ -25,13 +25,13 @@ library(forcats)
 
 #download the data from: https://www.fangraphs.com/prospects/farm-system-rankings/2024-prospect-list
 #or from the Git
-system_rankings=read_xlsx("C:/Users/Peter.Barston/Desktop/Peter Career/Blogging/MLB/Prospect Diamond Plots/Data/Diamond Plots - FG System Rankings.xlsx")
+system_rankings=read_xlsx("/Diamond Plots - FG System Rankings.xlsx")
 
 #make sure the data types are right: 
 str(system_rankings)
 
 #now, we need to a table for value by prospect type and level so that we can back into individual values
-prospect_values = read_xlsx("C:/Users/Peter.Barston/Desktop/Peter Career/Blogging/MLB/Prospect Diamond Plots/Data/FG_Prospect_Values.xlsx")
+prospect_values = read_xlsx("/FG_Prospect_Values.xlsx")
 #this is from
 #https://blogs.fangraphs.com/an-update-to-prospect-valuation/
 #https://blogs.fangraphs.com/putting-a-dollar-value-on-prospects-outside-the-top-100/
